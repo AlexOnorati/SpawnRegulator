@@ -1,5 +1,6 @@
-randomSeed = require('../Randomizer/main');
+randomizer = require('../Randomizer/main');
+
 
 //Quick architecture test
-console.log(randomSeed.readSeed("rule-seed"));
-console.log(randomSeed.writeSeed({"seed": "seed"}));
+console.log(randomizer.readSeed("rule-seed-format"));
+console.log(randomizer.writeSeed({"seed": "seed"}));
